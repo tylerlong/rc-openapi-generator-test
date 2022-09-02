@@ -1,0 +1,25 @@
+
+# Org.OpenAPITools.Model.CallParty
+
+## Properties
+
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**Id** | **string** | Internal identifier of a party | [optional] 
+**Status** | [**CallStatusInfo**](CallStatusInfo.md) |  | [optional] 
+**Muted** | **bool** | Specifies if a call participant is muted or not. **Note:** If a call is also controlled via Hard phone or RingCentral App (not only through the API by calling call control methods) then it cannot be fully muted/unmuted via API only, in this case the action should be duplicated via Hard phone/RC App interfaces | [optional] 
+**StandAlone** | **bool** | If &#39;True&#39; then the party is not connected to a session voice conference, &#39;False&#39; means the party is connected to other parties in a session | [optional] 
+**Park** | [**ParkInfo**](ParkInfo.md) |  | [optional] 
+**From** | [**PartyInfo**](PartyInfo.md) |  | [optional] 
+**To** | [**PartyInfo**](PartyInfo.md) |  | [optional] 
+**Owner** | [**OwnerInfo**](OwnerInfo.md) |  | [optional] 
+**Direction** | **string** | Direction of a call | [optional] 
+**ConferenceRole** | **string** | A party&#39;s role in the conference scenarios. For calls of &#39;Conference&#39; type only | [optional] 
+**RingOutRole** | **string** | A party&#39;s role in &#39;Ring Me&#39;/&#39;RingOut&#39; scenarios. For calls of &#39;Ringout&#39; type only | [optional] 
+**RingMeRole** | **string** | A party&#39;s role in &#39;Ring Me&#39;/&#39;RingOut&#39; scenarios. For calls of &#39;Ringme&#39; type only | [optional] 
+**Recordings** | [**List&lt;RecordingInfo&gt;**](RecordingInfo.md) | Active recordings list | [optional] 
+
+[[Back to Model list]](../README.md#documentation-for-models)
+[[Back to API list]](../README.md#documentation-for-api-endpoints)
+[[Back to README]](../README.md)
+

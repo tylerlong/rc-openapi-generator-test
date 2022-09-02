@@ -1,0 +1,18 @@
+
+# Org.OpenAPITools.Model.RNPPagingInfo
+
+## Properties
+
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**Page** | **int** |  | [optional] 
+**TotalPages** | **int** |  | [optional] 
+**PerPage** | **int** |  | [optional] 
+**TotalElements** | **int** |  | [optional] 
+**PageStart** | **int** |  | [optional] 
+**PageEnd** | **int** |  | [optional] 
+
+[[Back to Model list]](../README.md#documentation-for-models)
+[[Back to API list]](../README.md#documentation-for-api-endpoints)
+[[Back to README]](../README.md)
+
