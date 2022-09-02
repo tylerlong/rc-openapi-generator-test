@@ -14,6 +14,6 @@ brew install openapi-generator
 
 ```
 openapi-generator generate \
--i https://raw.githubusercontent.com/openapitools/openapi-generator/master/modules/openapi-generator/src/test/resources/3_0/petstore.yaml \
+-i https://raw.githubusercontent.com/tylerlong/rc-openapi-generator-test/main/rc-platform.yaml \
 -g csharp -o ./temp/
 ```
